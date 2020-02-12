@@ -1,0 +1,82 @@
+name: myflutter_webapp
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  sticky_headers:
+  animated_text_kit: ^2.0.0
+  font_awesome_flutter:
+  carousel_slider: ^1.4.1
+  carousel_pro: ^1.0.0
+  flutter_svg: ^0.17.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - assets/imgs/codecodalogo.png
+     - assets/imgs/bg_image.jpg
+     - assets/imgs/banner3.jpg
+     - assets/imgs/map.jpg
+     - assets/imgs/foot_logo_1.png
+     - assets/imgs/foot_logo_2.png
+     - assets/imgs/foot_logo_3.png
+     - assets/imgs/foot_logo_4.svg
+     - assets/imgs/top_img_1.jpg
+     - assets/imgs/top_img_2.jpg
+     - assets/imgs/top_img_3.jpg
+     - assets/imgs/top_img_4.jpg
+     - assets/imgs/us.png
+     - assets/imgs/uk.png
+     - assets/imgs/italy.png
+     - assets/imgs/sweden.png
+     - assets/imgs/man.jpg
+  #  - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+       - family: OpenSans
+         fonts:
+           - asset: fonts/OpenSans-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+       - family: OpenSansBold
+         fonts:
+         - asset: fonts/OpenSans-Bold.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
